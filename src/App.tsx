@@ -23,6 +23,7 @@ import {
   BookOpen,
   Briefcase
 } from 'lucide-react';
+import myPhoto from '/src/photoCV3.png'; // Adjust path as needed
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -227,7 +228,7 @@ function App() {
               <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-violet-500/40 shadow-2xl transform hover:scale-105 transition-all duration-500 bg-gradient-to-br from-violet-500/10 to-purple-500/10">
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/30 via-transparent to-transparent z-10"></div>
                 <img
-                  src="/src/photoCV2.png"
+                  src={myPhoto}
                   alt="Ammar Jerada"
                   className="w-full h-full object-cover object-center"
                 />
