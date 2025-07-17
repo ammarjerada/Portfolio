@@ -23,7 +23,7 @@ import {
   BookOpen,
   Briefcase
 } from 'lucide-react';
-import myPhoto from '/src/photoCV3.png'; // Adjust path as needed
+import myPhoto from '/src/photoCV3.png';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
